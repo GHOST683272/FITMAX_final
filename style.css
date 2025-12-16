@@ -1,13 +1,12 @@
-:root {
-    --primary-gradient: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
-}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color:beige;
+}
 .studio-btn {
     background-image: linear-gradient(to right, pink, aqua);
     color: black;
@@ -234,4 +233,5 @@ a {
         flex-wrap: wrap;
         justify-content: center;
     }
+
 }

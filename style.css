@@ -67,13 +67,6 @@ body {
     margin-top: 5px;
 }
 
-/*.motto {
-    display: flex;
-    gap: 16px;
-    color: white;
-    margin-left: 50%;
-}*/
-
 /* HERO SECTION */
 .container {
     display: flex;
@@ -274,4 +267,3 @@ a {
         border-radius: 50%;
     }
 }
-

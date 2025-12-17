@@ -1,3 +1,7 @@
+:root {
+    --primary-gradient: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -193,7 +197,6 @@ a {
     border-radius: 50%;
 }
 
-/* Hover effect */
 .whatsapp-float:hover {
     transform: scale(1.5);
     transition: 2000ms;

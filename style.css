@@ -199,7 +199,7 @@ a {
 
 .whatsapp-float:hover {
     transform: scale(1.5);
-    transition: 2000ms;
+    transition: 700ms;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
@@ -274,3 +274,4 @@ a {
         border-radius: 50%;
     }
 }
+

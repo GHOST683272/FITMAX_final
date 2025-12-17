@@ -118,6 +118,25 @@
       flex-direction: row;
     }
 
+    .whatsapp-float {
+      position: fixed;
+      bottom: 70px;
+      right: 20px;
+      height: 70px;
+      width: 70px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url("icons8-whatsapp-100.png");
+      border-radius: 50%;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.5);
+      transition: 2000ms;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
     @media (max-width: 600px) {
       .hero-section h1 {
         font-size: 2rem;
@@ -137,6 +156,19 @@
 
       .details-grid img {
         height: 150px;
+      }
+
+      .whatsapp-float {
+        position: fixed;
+        bottom: 70px;
+        right: -5px;
+        height: 70px;
+        width: 70px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url("icons8-whatsapp-100.png");
+        border-radius: 50%;
       }
     }
   </style>
@@ -236,26 +268,28 @@
         </div>
       </div>
       <div class="row justify-content-center my-4 text-center">
-  <div class="col-auto d-flex gap-3 flex-wrap justify-content-center">
+        <div class="col-auto d-flex gap-3 flex-wrap justify-content-center">
 
-    <!-- CALL BUTTON -->
-    <a href="tel:+917550900680" class="btn btn-dark px-4 py-2">
-      📞 Call Us
-    </a>
+          <!-- CALL BUTTON -->
+          <a href="tel:+917550900680" class="btn btn-dark px-4 py-2">
+            📞 Call Us
+          </a>
 
-    <!-- EMAIL BUTTON -->
-    <a href="mailto:fit.max25.shibmandir@gmail.com" class="btn btn-dark px-4 py-2">
-      ✉️ Email
-    </a>
+          <!-- EMAIL BUTTON -->
+          <a href="mailto:fit.max25.shibmandir@gmail.com" class="btn btn-dark px-4 py-2">
+            ✉️ Email
+          </a>
 
-    <!-- INSTAGRAM BUTTON -->
-    <a href="https://www.instagram.com/fitmax" target="_blank" class="btn btn-dark px-4 py-2">
-      📸 Instagram
-    </a>
+          <!-- INSTAGRAM BUTTON -->
+          <a href="https://www.instagram.com/fitmax" target="_blank" class="btn btn-dark px-4 py-2">
+            📸 Instagram
+          </a>
+          <a href="https://wa.me/917550900680?text=Hi%20FITMAX%2C%20I%20want%20to%20know%20about%20physiotherapy%20sessions"
+            class="whatsapp-float" target="_blank">
+          </a>
+        </div>
+      </div>
 
-  </div>
-</div>
- 
 
 
 

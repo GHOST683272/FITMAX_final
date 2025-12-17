@@ -1,3 +1,6 @@
+:root {
+    --primary-gradient: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
+}
 
 * {
     margin: 0;
@@ -233,5 +236,4 @@ a {
         flex-wrap: wrap;
         justify-content: center;
     }
-
 }

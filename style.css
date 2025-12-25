@@ -71,6 +71,7 @@ body {
 /* HERO SECTION */
 .container {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     gap: 5%;
@@ -87,7 +88,8 @@ body {
 }
 
 .hero-pic {
-    width: 400px;
+    width: 250px;
+    height: 300px;
     height: auto;
     border-radius: 10px;
 }
@@ -230,7 +232,7 @@ a {
     }
 
     .container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         /* stack image and quote */
         padding: 30px 10px;
         gap: 25px;
@@ -241,11 +243,15 @@ a {
         text-align: left;
         max-width: 90%;
     }
-
+    .quote li{
+        transform: translateX(-20px);
+        font-size: 20px;
+    }
     .hero-pic {
-        width: 100%;
-        max-width: 250px;
-        height: auto;
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        height: 300px;
     }
 
     .links {

@@ -93,7 +93,6 @@ body {
 }
 
 .quote {
-    font-size: 28px;
     color: white;
     line-height: 1.5;
     font-family: "Delius", cursive;
@@ -109,7 +108,7 @@ body {
 
 .quote li {
     list-style: none;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .footer {

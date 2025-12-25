@@ -1,0 +1,154 @@
+.map {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    iframe {
+      border-radius: 20px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
+      cursor: url("icons8-cursor-24.png"), auto;
+      font-family: "Roboto", sans-serif;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background: linear-gradient(to right, rgb(42, 161, 42), rgb(68, 65, 65));
+    }
+
+    .logo img {
+      height: 35px;
+      border-radius: 10px;
+      background: #fff;
+      padding: 2px 6px;
+    }
+
+    /* HERO */
+    .hero-section {
+      padding: 60px 0;
+    }
+
+    .hero-section h1 {
+      font-family: "Gabriela", serif;
+      font-size: 2.7rem;
+      font-weight: 700;
+    }
+
+    .hero-section p {
+      font-family: "Playpen Sans", cursive;
+      font-size: 1.1rem;
+    }
+
+    .hero-img {
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 5px 5px 15px gray;
+      height: 40vh;
+      object-fit: cover;
+    }
+
+    /* FITNESS BOX */
+    .fitness-box {
+      background: linear-gradient(to right, aquamarine, white);
+      padding-left: 70px;
+      padding-bottom: 50px;
+      border-radius: 25px;
+      box-shadow: 5px 5px 15px gray;
+      font-family: "Playpen Sans", cursive;
+      font-weight: 501;
+      line-height: 2.5;
+      font-size: 22px;
+    }
+
+    /* IMAGE GRID */
+    .details-grid img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      /* perfect square grid */
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+
+    .footer {
+      width: 4000px;
+      height: 10%;
+      position: relative;
+      bottom: 0;
+      background-color: rgb(39, 38, 38);
+    }
+
+    a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      line-height: 1.5;
+
+    }
+
+    .links {
+      display: flex;
+      gap: 20%;
+      padding-left: 30px;
+      flex-direction: row;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 70px;
+      right: 20px;
+      height: 70px;
+      width: 70px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url("icons8-whatsapp-100.png");
+      border-radius: 50%;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.5);
+      transition: 2000ms;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 600px) {
+      .hero-section h1 {
+        font-size: 2rem;
+      }
+
+      .hero-img {
+        height: 25vh;
+      }
+
+      .fitness-box {
+        padding-left: 6%;
+        padding-top: 5%;
+        padding-bottom: 0;
+        font-size: 15px;
+
+      }
+
+      .details-grid img {
+        height: 150px;
+      }
+
+      .whatsapp-float {
+        position: fixed;
+        bottom: 70px;
+        right: -5px;
+        height: 70px;
+        width: 70px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url("icons8-whatsapp-100.png");
+        border-radius: 50%;
+      }
+    }

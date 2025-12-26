@@ -78,10 +78,13 @@ html {
 .quote li {
     list-style: none;
     font-size: 28px;
-    color: #8f7a5d;
+    color: gray;
 }
 
 /* SOLUTIONS IMAGE */
+.containing-solutions{
+    padding-top:100px;
+}
 .containing-solutions img {
     width: 600px;
     border-radius: 25px;

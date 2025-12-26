@@ -9,13 +9,110 @@
 }
 
 body {
-    background-color: beige;
+    background-color: #f7edde;
+    font-family: "Roboto", sans-serif;
 }
 
+html {
+    cursor: url("icons8-cursor-24.png"), auto;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    background-color: green;
+}
+
+.logo-img {
+    width: 200px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.motto {
+    pointer-events: all;
+    font-size: 40px;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* HERO SECTION */
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.left-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-pic {
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.quote {
+    line-height: 1.5;
+    font-family: "Delius", cursive;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 50px 0 50px 50px;
+    box-shadow: 0 5px 40px rgba(20, 20, 20, 0.15);
+    background-color: #e6d8c6;
+}
+
+.quote li {
+    list-style: none;
+    font-size: 28px;
+    color: #8f7a5d;
+}
+
+/* SOLUTIONS IMAGE */
+.containing-solutions img {
+    width: 600px;
+    border-radius: 25px;
+    height: auto;
+}
+
+/* OFFER SECTION */
+.offer-cards {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* MAP SECTION */
+.map-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+
+.map-iframe {
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/* BUTTON */
 .studio-btn {
     background-image: linear-gradient(to right, pink, aqua);
     color: black;
-    padding: 0.6%;
     border: none;
     border-radius: 30px;
     font-size: 18px;
@@ -30,95 +127,21 @@ body {
 .studio-btn:hover {
     background: #1db954;
     color: white;
-    box-shadow: 0 0 30px rgba(29, 185, 84, 0.9)
+    box-shadow: 0 0 30px rgba(29, 185, 84, 0.9);
 }
 
-html {
-    cursor: url("icons8-cursor-24.png"), auto;
-}
-
-body {
-    /*background: var(--primary-gradient);*/
-    font-family: "Roboto", sans-serif;
-}
-
-/* NAVBAR */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3%;
-    background-color: green;
-}
-
-.motto {
-    pointer-events: all;
-    font-size: 40px;
-    font-family: "Delius", cursive;
-    font-weight: 400;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    font-style: normal;
-}
-
-.logo-img {
-    width: 200px;
-    background: white;
-    border-radius: 5px;
-    margin-top: 5px;
-}
-
-/* HERO SECTION */
-.container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-    flex-wrap: wrap;
-    /* stack on small screens */
-    padding: 50px 20px;
-    /* spacing from navbar */
-}
-
-.left-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-pic {
-    width: 250px;
-    height: 300px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.quote {
-    color: white;
-    line-height: 1.5;
-    font-family: "Delius", cursive;
-    max-width: 500px;
-    border-radius: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    box-shadow: 0 12px 30px rgba(20, 20, 20, 0.15);
-    background-color: #7bae37;
-    backdrop-filter: blur(6px);
-}
-
-.quote li {
-    list-style: none;
-    font-size: 28px;
-}
-
+/* FOOTER */
 .footer {
     width: 100%;
-    height: 8%;
     position: fixed;
     bottom: 0;
     background-color: rgb(39, 38, 38);
+}
+
+.links {
+    display: flex;
+    gap: 20%;
+    padding-left: 30px;
 }
 
 a {
@@ -126,69 +149,17 @@ a {
     font-size: 15px;
     text-decoration: none;
     line-height: 1.5;
-    list-style: none;
-
 }
 
-.links {
-    display: flex;
-    gap: 20%;
-    padding-left: 30px;
-    flex-direction: row;
-}
-
-.offer-cards {
-    display: flex;
-    gap: 70px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.offer-cards li {
-    list-style-type: square;
-}
-
-.card {
-    background-image: linear-gradient(to right, pink, aqua);
-    font-family: "Playpen Sans", cursive;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-    height: 220px;
-    width: 300px;
-    padding-top: 10px;
-    padding-left: 30px;
-    line-height: 3;
-    font-size: 22px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.card:hover {
-    background-image: linear-gradient(to right, yellowgreen);
-}
-
-.map-section {
-    display: flex;
-    border-radius: 25px;
-    flex-direction: column;
-    align-items: center;
-    height: 700px;
-}
-
-.map-iframe {
-    border: 2px solid black;
-    border-radius: 25px;
-}
-
+/* FLOATING WHATSAPP */
 .whatsapp-float {
     position: fixed;
     bottom: 70px;
     right: 20px;
     height: 70px;
     width: 70px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background-image: url("icons8-whatsapp-100.png");
+    background-size: cover;
     border-radius: 50%;
 }
 
@@ -225,33 +196,36 @@ a {
         margin-left: 5px;
     }
 
+    .containing-solutions img {
+        width: 400px;
+        transform: translateY(-200px);
+    }
+
     .motto {
         font-size: 18px;
-        font-family: none;
         height: 20px;
     }
 
     .container {
         flex-direction: column-reverse;
-        /* stack image and quote */
         padding: 30px 10px;
         gap: 25px;
     }
 
     .quote {
         font-size: 20px;
-        text-align: left;
         max-width: 90%;
     }
-    .quote li{
+
+    .quote li {
         transform: translateX(-20px);
         font-size: 20px;
     }
+
     .hero-pic {
-        display: flex;
-        flex-direction: row;
-        width: 250px;
-        height: 300px;
+        width: auto;
+        height: auto;
+        transform: translateY(-90px);
     }
 
     .links {
@@ -261,15 +235,6 @@ a {
     }
 
     .whatsapp-float {
-        position: fixed;
-        bottom: 70px;
         right: -5px;
-        height: 70px;
-        width: 70px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-image: url("icons8-whatsapp-100.png");
-        border-radius: 50%;
     }
 }

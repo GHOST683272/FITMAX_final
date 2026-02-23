@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
+    background: beige;
     font-family: "Roboto", sans-serif;
 }
 
@@ -76,7 +75,7 @@ html {
 .quote li {
     list-style: none;
     font-size: 28px;
-    color: gray;
+    color: black;
 }
 
 /* SOLUTIONS IMAGE */
@@ -239,4 +238,5 @@ a {
         right: -5px;
     }
 }
+
 

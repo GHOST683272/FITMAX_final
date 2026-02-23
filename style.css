@@ -1,6 +1,4 @@
-:root {
-    --primary-gradient: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
-}
+
 
 * {
     margin: 0;
@@ -9,7 +7,7 @@
 }
 
 body {
-    background-color: #f7edde;
+    background: linear-gradient(to right, rgb(247, 170, 228), rgb(116, 218, 236));
     font-family: "Roboto", sans-serif;
 }
 
@@ -241,3 +239,4 @@ a {
         right: -5px;
     }
 }
+
